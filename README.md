@@ -58,7 +58,7 @@ cd urbango-api
 
 <h3 id="user-authentication">User Authentication</h3>
 <ul>
-  <li><strong>Register</strong> - <code>POST /user/register</code>
+  <li><strong>Register</strong> - <code> /user/register</code>
     <pre><code>{
   "fname": "John",
   "lname": "Doe",
@@ -67,20 +67,20 @@ cd urbango-api
 }
     </code></pre>
   </li>
-  <li><strong>Login</strong> - <code>POST /user/login</code>
+  <li><strong>Login</strong> - <code> /user/login</code>
     <pre><code>{
   "email": "john.doe@example.com",
   "passwd": "password123"
 }
     </code></pre>
   </li>
-  <li><strong>Forgot Password</strong> - <code>POST /user/forgotpassword</code>
+  <li><strong>Forgot Password</strong> - <code> /user/forgotpassword</code>
     <pre><code>{
   "email": "john.doe@example.com"
 }
     </code></pre>
   </li>
-  <li><strong>Update Password</strong> - <code>POST /user/forgotpassword/user/update</code>
+  <li><strong>Update Password</strong> - <code> /user/forgotpassword/user/update</code>
     <pre><code>{
   "email": "john.doe@example.com",
   "passwd": "newpassword123"
@@ -91,27 +91,27 @@ cd urbango-api
 
 <h3 id="search-services">Search Services</h3>
 <ul>
-  <li><strong>Search Flights</strong> - <code>POST /search/flights</code>
+  <li><strong>Search Flights</strong> - <code> /search/flights</code>
     <pre><code>{
   "From": "CityA",
   "to": "CityB"
 }
     </code></pre>
   </li>
-  <li><strong>Search Hotels</strong> - <code>POST /search/hotels</code>
+  <li><strong>Search Hotels</strong> - <code> /search/hotels</code>
     <pre><code>{
   "city": "CityA"
 }
     </code></pre>
   </li>
-  <li><strong>Search Cars</strong> - <code>POST /search/cars</code>
+  <li><strong>Search Cars</strong> - <code> /search/cars</code>
     <pre><code>{
   "city": "CityA",
   "to": "CityB"
 }
     </code></pre>
   </li>
-  <li><strong>Search Famous Places</strong> - <code>POST /search/famousplaces</code>
+  <li><strong>Search Famous Places</strong> - <code> /search/famousplaces</code>
     <pre><code>{
   "city": "CityA"
 }
@@ -121,7 +121,7 @@ cd urbango-api
 
 <h3 id="cart-management">Cart Management</h3>
 <ul>
-  <li><strong>Add to Cart</strong> - <code>POST /cart/add</code>
+  <li><strong>Add to Cart</strong> - <code> /cart/add</code>
     <pre><code>{
   "email": "john.doe@example.com",
   "trips": [
@@ -133,20 +133,20 @@ cd urbango-api
 }
     </code></pre>
   </li>
-  <li><strong>Remove from Cart</strong> - <code>POST /cart/remove</code>
+  <li><strong>Remove from Cart</strong> - <code> /cart/remove</code>
     <pre><code>{
   "email": "john.doe@example.com",
   "removetripID": "trip_id"
 }
     </code></pre>
   </li>
-  <li><strong>Get Cart Info</strong> - <code>POST /cart/info</code>
+  <li><strong>Get Cart Info</strong> - <code> /cart/info</code>
     <pre><code>{
   "email": "john.doe@example.com"
 }
     </code></pre>
   </li>
-  <li><strong>Checkout</strong> - <code>POST /cart/checkout</code>
+  <li><strong>Checkout</strong> - <code> /cart/checkout</code>
     <pre><code>{
   "email": "john.doe@example.com"
 }
