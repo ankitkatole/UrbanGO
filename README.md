@@ -1,10 +1,4 @@
-#UrbanGO_server
-<!DOCTYPE html>
-<html>
-<head>
-  <title>UrbanGo API</title>
-</head>
-<body>
+<h1>UrbanGO Server</h1>
 
 <h1>UrbanGo API</h1>
 <p>UrbanGo API is a comprehensive travel service that provides information and booking options for flights, hotels, cars, and famous places. It also includes user authentication and cart management features.</p>
