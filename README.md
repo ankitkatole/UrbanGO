@@ -21,7 +21,7 @@
 <h2 id="installation">Installation</h2>
 <ol>
   <li>Clone the repository:
-    <pre><code>git clone https://github.com/your-username/urbango-api.git
+    <pre><code>git clone https://github.com/ankitkatole/UrbanGO.git
 cd urbango-api
     </code></pre>
   </li>
