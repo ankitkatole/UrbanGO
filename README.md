@@ -22,7 +22,7 @@
 <ol>
   <li>Clone the repository:
     <pre><code>git clone https://github.com/ankitkatole/UrbanGO.git
-cd urbango-api
+cd UrbanGO
     </code></pre>
   </li>
   <li>Install dependencies:
